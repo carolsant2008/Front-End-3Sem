@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: aquamarine;
+}
+
+img{
+    width: 200px;
+
+}
+
+/*tablet*/
+@media screen and (max-width: 991px) {
+    h1{
+        color: rgb(0, 0, 0);
+    }
+
+    img{
+        display: none;
+    }
+}
+/*mobile*/
+@media screen and (max-width: 767px) {
+    h1{
+        background-color: blueviolet;
+    }
+
+    img{
+        display: block;
+    }
+}
