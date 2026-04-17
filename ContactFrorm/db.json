@@ -1,0 +1,112 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "contatos": [
+    {
+      "nome": "Carol",
+      "sobrenome": "Garcia",
+      "email": "bella@gmail.com",
+      "id": "uy-dBNZTMkY"
+    },
+    {
+      "nome": "Mae",
+      "sobrenome": "mamae",
+      "email": "mamae@gmail.com",
+      "id": "TES4Q4rLod0"
+    },
+    {
+      "nome": "biel",
+      "sobrenome": "Sant Ana",
+      "email": "biel@gmail.com",
+      "id": "QvLJIf7BBnI"
+    },
+    {
+      "nome": "Bella",
+      "sobrenome": "Santos",
+      "email": "bella@gmail.com",
+      "id": "9Lq8nfZm6j0"
+    },
+    {
+      "nome": "Vo",
+      "sobrenome": "Vovo",
+      "email": "vovo@gmail.com",
+      "id": "B2--KoMme4U"
+    },
+    {
+      "id": "NjGqxJHLRkE",
+      "nome": "uva",
+      "preço": "5,00",
+      "quantidade": "10"
+    },
+    {
+      "nome": "morango",
+      "preço": "10,00",
+      "quantidade": "20",
+      "id": "OCU8F4lMpLs"
+    },
+    {
+      "nome": "bolacha",
+      "preço": "3,00",
+      "quantidade": "1",
+      "id": "R_QR9s6CjZM"
+    },
+    {
+      "nome": "carne",
+      "preço": "50,00",
+      "quantidade": "1",
+      "id": "tHMU-eeHE5A"
+    },
+    {
+      "nome": "refri",
+      "preço": "7,00",
+      "quantidade": "1",
+      "id": "v0Jtzb3pEJA"
+    },
+    {
+      "Nome": "Isa",
+      "Sobrenome": "bella",
+      "id": "hCS_UP09JTE"
+    },
+    {
+      "Nome": "",
+      "Sobrenome": "",
+      "id": "JoGlwtI-Al4"
+    },
+    {
+      "Nome": "Isa",
+      "Sobrenome": "bella",
+      "id": "g3u7GVxuVBU"
+    },
+    {
+      "Nome": "Isa",
+      "Sobrenome": "bella",
+      "id": "BYHlXfvtsrQ"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
