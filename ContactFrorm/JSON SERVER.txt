@@ -1,0 +1,72 @@
+JSON SERVER
+
+
+
+minha pesquisa simples no google
+
+O JSON Server é uma ferramenta baseada em Node.js que permite criar APIs RESTful falsas (mock APIs) instantaneamente, utilizando um arquivo JSON simples como banco de dados.
+
+
+
+
+
+Facilitar o desenvolvimento front end criando um servidor 
+
+cria uma API falsa (API REST)
+
+Para programadores front-end não ter que esperar o programador back-end finalizar a API
+
+utiliza um arquivo *db.json*
+
+
+
+Como instalar?
+
+Abrir o terminal, pode ser no *VSCode*, e rode o comando:
+
+[ npm install -g json-server ]**
+
+(com a flag/parâmetro-g você instala o json server de forma global e não precisará mais instalar para os outros projetos)
+
+criar um arquivo *db.json* (este arquivo serve como um banco de dados gerenciado pelo proprio Json server )
+
+Exemplo:
+
+{
+
+"Rota/EndPoint?":\[
+   {"id": 1, "dado-qualquer": "valor-qualquer"}
+
+ ]
+
+}
+
+Exemplo ficticio:
+
+{
+
+"Rota/EndPoint?":\[
+
+   {"id": 1, "Nome": "isabella", "email": "isa@bella.com","idade": 17},
+
+  {"id": 2, "Nome": "Thayná", "email": "thata@garcia.com","idade": 28}
+
+ ]
+
+}
+
+
+
+No *VSCode* devemos abrir o terminal e alterar para o terminal do gitbash
+
+rodar o comando\[ npx json-server --watch db.json ]
+
+e ta pronto!
+
+Entrar no postMan
+Criar as requisições:
+cadastrar Usuário (post)
+listar usuários (get)
+lista  um usuário (get)
+Editar Usuário (put)
+Apagar Usuário (Delete)
