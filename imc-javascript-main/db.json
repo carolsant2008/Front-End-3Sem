@@ -1,292 +1,91 @@
 {
   "imc": [
     {
-      "nome": "Eduardo",
-      "altura": 1.67,
-      "peso": 85,
-      "IMC": 30.477966223242138,
-      "textoSituacao": "obesidade grau 1",
-      "id": "ickCnImt_fw"
-    },
-    {
-      "nome": "Eduardo",
-      "altura": 1.67,
-      "peso": 85,
-      "IMC": 30.477966223242138,
-      "textoSituacao": "obesidade grau 1",
-      "id": "A-r7P4Ko1tU"
-    },
-    {
-      "nome": "Eduardo",
-      "altura": 1.67,
-      "peso": 85,
-      "IMC": 30.477966223242138,
-      "textoSituacao": "obesidade grau 1",
-      "id": "_G26Fy_7ZKE"
-    },
-    {
-      "nome": "Eduardo",
-      "altura": 1.67,
-      "peso": 85,
-      "IMC": 30.477966223242138,
-      "textoSituacao": "obesidade grau 1",
-      "id": "1qg1Qf5tl7g"
-    },
-    {
-      "nome": "Eduardo",
-      "altura": 1.67,
-      "peso": 85,
-      "IMC": 30.477966223242138,
-      "textoSituacao": "obesidade grau 1",
-      "id": "Ku3nJWBYlxY"
-    },
-    {
-      "nome": "Eduardo",
-      "altura": 1.67,
-      "peso": 85,
-      "IMC": 30.477966223242138,
-      "textoSituacao": "obesidade grau 1",
-      "id": "SZfeoomXdWg"
-    },
-    {
-      "nome": "Eduardo",
-      "altura": 1.67,
-      "peso": 85,
-      "IMC": 30.477966223242138,
-      "textoSituacao": "obesidade grau 1",
-      "id": "9mTbKkNMCUI"
-    },
-    {
-      "nome": "Eduardo",
-      "altura": 1.67,
-      "peso": 85,
-      "IMC": 30.477966223242138,
-      "textoSituacao": "obesidade grau 1",
-      "id": "RGveg8wv5ZI"
-    },
-    {
-      "nome": "Eduardo",
-      "altura": 1.67,
-      "peso": 85,
-      "IMC": 30.477966223242138,
-      "textoSituacao": "obesidade grau 1",
-      "id": "29ctpkh9CDc"
-    },
-    {
-      "nome": "Eduardo",
-      "altura": 1.67,
-      "peso": 85,
-      "IMC": 30.477966223242138,
-      "textoSituacao": "obesidade grau 1",
-      "id": "bYiqnhBQyrk"
-    },
-    {
-      "nome": "Eduardo",
-      "altura": 1.67,
-      "peso": 85,
-      "IMC": 30.477966223242138,
-      "textoSituacao": "obesidade grau 1",
-      "id": "B8thPCVwk9Y"
-    },
-    {
-      "nome": "Eduardo",
-      "altura": 1.67,
-      "peso": 85,
-      "IMC": 30.477966223242138,
-      "textoSituacao": "obesidade grau 1",
-      "id": "x4CHBG0UXAw"
-    },
-    {
-      "nome": "Eduardo",
-      "altura": 1.67,
-      "peso": 85,
-      "IMC": 30.477966223242138,
-      "textoSituacao": "obesidade grau 1",
-      "id": "gxZHw-FGQzo"
-    },
-    {
-      "nome": "Eduardo",
-      "altura": 1.67,
-      "peso": 85,
-      "IMC": 30.477966223242138,
-      "textoSituacao": "obesidade grau 1",
-      "id": "9aiNCNqCXs4"
-    },
-    {
-      "nome": "Eduardo",
-      "altura": 1.67,
-      "peso": 85,
-      "IMC": 30.477966223242138,
-      "textoSituacao": "obesidade grau 1",
-      "id": "8fzi2JupncI"
-    },
-    {
-      "nome": "Eduardo",
-      "altura": 1.67,
-      "peso": 85,
-      "IMC": 30.477966223242138,
-      "textoSituacao": "obesidade grau 1",
-      "id": "a8-3iPZnR0s"
-    },
-    {
-      "nome": "Eduardo",
-      "altura": 1.67,
-      "peso": 85,
-      "IMC": 30.477966223242138,
-      "textoSituacao": "obesidade grau 1",
-      "id": "1uQec0nHVUQ"
-    },
-    {
-      "nome": "Eduardo",
-      "altura": 1.67,
-      "peso": 85,
-      "IMC": 30.477966223242138,
-      "textoSituacao": "obesidade grau 1",
-      "id": "WYFi1GdpzZA"
-    },
-    {
-      "nome": "Eduardo",
-      "altura": 1.67,
-      "peso": 85,
-      "IMC": 30.477966223242138,
-      "textoSituacao": "obesidade grau 1",
-      "id": "vR_Harlj2Vs"
-    },
-    {
-      "nome": "Eduardo",
-      "altura": 1.67,
-      "peso": 85,
-      "IMC": 30.477966223242138,
-      "textoSituacao": "obesidade grau 1",
-      "id": "3WK9sZ20c2Q"
-    },
-    {
-      "nome": "isa",
-      "altura": 1.7,
-      "peso": 77,
-      "IMC": 26.643598615916957,
+      "nome": "Carol",
+      "altura": 1.57,
+      "peso": 62,
+      "IMC": 25.153150229218223,
       "textoSituacao": "Sobrepeso",
-      "id": "FPwqdvKB80A"
+      "id": "GmA0wpnzF_o"
+    }
+  ],
+  "Calculadora": [
+    {
+      "n1": 20,
+      "n2": 60,
+      "op": "",
+      "resultado": "Operação Inválida",
+      "id": "3iQiuCWLYFs"
     },
     {
-      "nome": "Eduardo",
-      "altura": 1.67,
-      "peso": 85,
-      "IMC": 30.477966223242138,
-      "textoSituacao": "obesidade grau 1",
-      "id": "4wdFpjvMRSg"
+      "n1": 43,
+      "n2": 50,
+      "op": "subtracao",
+      "resultado": "-7.00",
+      "id": "UyRuEqpTY3k"
     },
     {
-      "nome": "Eduardo",
-      "altura": 1.67,
-      "peso": 85,
-      "IMC": 30.477966223242138,
-      "textoSituacao": "obesidade grau 1",
-      "id": "eH66pxJLUmc"
+      "n1": null,
+      "n2": null,
+      "op": "",
+      "resultado": "Operação Inválida",
+      "id": "mZNvXO-IyyE"
     },
     {
-      "nome": "Eduardo",
-      "altura": 1.67,
-      "peso": 85,
-      "IMC": 30.477966223242138,
-      "textoSituacao": "obesidade grau 1",
-      "id": "j0niYePTOmQ"
+      "n1": 6,
+      "n2": 7,
+      "op": "soma",
+      "resultado": "13.00",
+      "id": "g9tzXIVrm8Y"
     },
     {
-      "nome": "Eduardo",
-      "altura": 1.67,
-      "peso": 85,
-      "IMC": 30.477966223242138,
-      "textoSituacao": "obesidade grau 1",
-      "id": "2run9q-utwQ"
+      "n1": 20,
+      "n2": 68,
+      "op": "multiplicacao",
+      "resultado": "1360.00",
+      "id": "YgopXLF53dk"
     },
     {
-      "nome": "Eduardo",
-      "altura": 1.67,
-      "peso": 85,
-      "IMC": 30.477966223242138,
-      "textoSituacao": "obesidade grau 1",
-      "id": "5Ihm5afWDbw"
+      "n1": 5,
+      "n2": 9,
+      "op": "multiplicacao",
+      "resultado": "45.00",
+      "id": "UTfGy1BoUUs"
     },
     {
-      "nome": "Eduardo",
-      "altura": 1.67,
-      "peso": 85,
-      "IMC": 30.477966223242138,
-      "textoSituacao": "obesidade grau 1",
-      "id": "xqZOvhxi0MQ"
+      "n1": 5,
+      "n2": 3,
+      "op": "subtracao",
+      "resultado": "2.00",
+      "id": "EhkyocscW8g"
     },
     {
-      "nome": "Eduardo",
-      "altura": 1.67,
-      "peso": 85,
-      "IMC": 30.477966223242138,
-      "textoSituacao": "obesidade grau 1",
-      "id": "PGZnCMQuD2s"
+      "n1": 5,
+      "n2": 8,
+      "op": "soma",
+      "resultado": "13.00",
+      "id": "MiOF0jnV58A"
     },
     {
-      "nome": "isa",
-      "altura": 1.7,
-      "peso": 77,
-      "IMC": 26.643598615916957,
-      "textoSituacao": "Sobrepeso",
-      "id": "GQ2txg242JE"
+      "n1": 7,
+      "n2": 9,
+      "op": "multiplicacao",
+      "resultado": "63.00",
+      "id": "IIJt9o77qQ4"
     },
     {
-      "nome": "Eduardo",
-      "altura": 1.67,
-      "peso": 85,
-      "IMC": 30.477966223242138,
-      "textoSituacao": "obesidade grau 1",
-      "id": "iCILcsas8cY"
+      "n1": 6,
+      "n2": 7,
+      "op": "soma",
+      "resultado": "13.00",
+      "id": "27GBewRMbzE"
     },
     {
-      "nome": "Eduardo",
-      "altura": 1.67,
-      "peso": 85,
-      "IMC": 30.477966223242138,
-      "textoSituacao": "obesidade grau 1",
-      "id": "oOPl57sj-xk"
-    },
-    {
-      "nome": "Eduardo",
-      "altura": 1.67,
-      "peso": 85,
-      "IMC": 30.477966223242138,
-      "textoSituacao": "obesidade grau 1",
-      "id": "FLypdEqoSR4"
-    },
-    {
-      "nome": "isa",
-      "altura": 1.7,
-      "peso": 77,
-      "IMC": 26.643598615916957,
-      "textoSituacao": "Sobrepeso",
-      "id": "P-uO_D1W5dc"
-    },
-    {
-      "nome": "Eduardo",
-      "altura": 1.67,
-      "peso": 85,
-      "IMC": 30.477966223242138,
-      "textoSituacao": "obesidade grau 1",
-      "id": "ldzskQJu2pc"
-    },
-    {
-      "nome": "Eduardo",
-      "altura": 1.67,
-      "peso": 85,
-      "IMC": 30.477966223242138,
-      "textoSituacao": "obesidade grau 1",
-      "id": "RYHQlBSNQ4I"
-    },
-    {
-      "nome": "Eduardo",
-      "altura": 1.67,
-      "peso": 85,
-      "IMC": 30.477966223242138,
-      "textoSituacao": "obesidade grau 1",
-      "id": "zwRurtko_3Q"
+      "n1": 7,
+      "n2": 2,
+      "op": "multiplicacao",
+      "resultado": "14.00",
+      "id": "ux2FPB_PseI"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

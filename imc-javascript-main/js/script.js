@@ -32,35 +32,24 @@ function calcular() {
         IMC: IMC,
         textoSituacao: textoSituacao
     }
-
-    const retorno = cadastrarAPI(objetoIMC);
+    const retorno = CadastrarNaAPI(objetoIMC);
 
     if (retorno) {
-
-        const tabela = document.getElementById("cadastro");
-
-        tabela.innerHTML += `<tr>
-                    <th>${nome}</th>
-                    <th>${altura}</th>
-                    <th>${peso}</th>
-                    <th>${IMC.toFixed(2)}</th>
-                    <th>${textoSituacao}</th>
-                </tr>`;
-
+        buscarIMCs();
 
         document.getElementById("nome").value = "";
         document.getElementById("altura").value = "";
         document.getElementById("peso").value = "";
-        alert(`${nome} foi cadastrado no banco:
-            Nome: ${nome}
-            IMC: ${IMC}
-            Situacao: ${textoSituacao}
-            `);
+
+        alert(` ${nome} foi cadastrado no banco:
+                Nome: ${nome}
+                 IMC: ${IMC}
+                  Situação: ${textoSituacao}
+                  `);
 
     } else {
-        alert("Nao foi possivel cadastrar");
+        alert("Não foi possivel cadastrar");
     }
-
 
 }
 
@@ -89,7 +78,7 @@ function gerarTextoIMC(IMC) {
     }
 }
 
-async function cadastrarAPI(objetoIMC) {
+async function CadastrarNaAPI(objetoIMC) {
 
     try {
         let resposta = await fetch("http://localhost:3000/imc", {
@@ -98,12 +87,16 @@ async function cadastrarAPI(objetoIMC) {
             headers: {
                 "Content-Type": "application/json; charset=UTF-8"
             }
+
+
         });
         return true;
-    }
-    catch (erro) {
+
+    } catch (error) {
+
         console.log(error);
         return false;
+
     }
 }
 
@@ -111,13 +104,17 @@ async function buscarIMCs() {
     try {
         const retorno = await fetch("http://localhost:3000/imc");
         const dadosRetornados = await retorno.json();
+        console.log(dadosRetornados);
+
+
+        dadosRetornados.sort((a, b) => {
+            return a.nome.localCompare(b.nome);
+        });
 
         const tabela = document.getElementById("cadastro");
         let template = "";
-        console.log(dadosRetornados);
         for (let i = 0; i < dadosRetornados.length; i++) {
-            template +=
-                `<tr>
+            template += `<tr>
                     <th>${dadosRetornados[i].nome}</th>
                     <th>${dadosRetornados[i].altura}</th>
                     <th>${dadosRetornados[i].peso}</th>
@@ -125,9 +122,11 @@ async function buscarIMCs() {
                     <th>${dadosRetornados[i].textoSituacao}</th>
                 </tr>`;
 
-            tabela.innerHTML = template;
         }
+
+        tabela.innerHTML = template;
     } catch (error) {
         console.log(error);
+
     }
 }
