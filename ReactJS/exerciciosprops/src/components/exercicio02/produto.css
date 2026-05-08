@@ -1,0 +1,6 @@
+.card-produto{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
