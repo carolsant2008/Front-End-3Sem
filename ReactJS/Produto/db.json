@@ -1,0 +1,37 @@
+{
+  "produtos": [
+    {
+      "nome": "idsabella",
+      "descricao": "iuweyrytweuytsdufywieufisyu",
+      "preco": 455,
+      "quantidade": 554,
+      "imagem": "image.jpg",
+      "id": "eGaLJysiXVI"
+    },
+    {
+      "nome": "7\\4\\4",
+      "descricao": "ddsfsd",
+      "preco": 444,
+      "quantidade": 4,
+      "imagem": "image.jpg",
+      "id": "hqOE0GPtxPM"
+    },
+    {
+      "nome": "7\\4\\4",
+      "descricao": "ddsfsd",
+      "preco": 444,
+      "quantidade": 4,
+      "imagem": "image.jpg",
+      "id": "v7xGfnkXgwQ"
+    },
+    {
+      "nome": "7\\4\\4",
+      "descricao": "ddsfsd",
+      "preco": 444,
+      "quantidade": 4,
+      "imagem": "image.jpg",
+      "id": "9_BY26KwkMM"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

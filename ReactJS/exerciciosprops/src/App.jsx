@@ -1,11 +1,12 @@
 
 import './App.css'
-import MyChildren from './components/mychildren/mychildren';
 // import Title from './Componentes/Title/Title';
 // import Saudaoes from './Componentes/Saudacoes/Saudaoes';
- import Produto from './components/exercicio02/pruduto';
-import Perfil from './components/exercicio03/perfil';
-//import cartao from './Componentes/Cartao/cartao';
+// import Produto from './Componentes/Produto/Produto';
+import cartao from './Componentes/Cartao/cartao';
+import Filme from './Componentes/Filme/Filme';
+import Produtos from './Componentes/Produtos/produtos';
+
 function App() {
 
 
@@ -37,42 +38,61 @@ function App() {
     // </>
 
     //    //Exercicio 2
-    // <>
-    //   <Produto nome="boracha" preco="2,00" descricao="fhsdhsgdfuygdfyug" />
-    //   <Produto nome="panela" preco="25,00" descricao="bghgagsghsgdfhgdhj" />
-    //   <Produto nome="tenis" preco="199,00" descricao="fhsdhsdfskdhjkshkjshgdfuygdfyug" />
-    // </>
+    //  <>
+    //  <Produto  nome="boracha" preco="2,00" descricao="fhsdhsgdfuygdfyug"/>
+    //  <Produto  nome="panela" preco="25,00" descricao="bghgagsghsgdfhgdhj"/>
+    //  <Produto  nome="tenis"  preco="199,00" descricao="fhsdhsdfskdhjkshkjshgdfuygdfyug"/>
+    //  </>
 
-    //  //Exercicio 3
-    // <>
-    // <cartao  />
-    // <cartao  />
-    // <cartao  />
-    // </>
-{/* <MyChildren>
-  <Produto
-  nome="Tenis nike"
-  preco={597.98}
-  descricao="tenis bunito da nike"
-  />
-  <Produto
-  nome="Tenis addidas"
-  preco={697.98}
-  descricao="tenis bunito da addidas"
-  />
-  <Produto
-  nome="Tenis puma"
-  preco={897.98}
-  descricao="tenis bunito da puma"
-  />
-</MyChildren> */
+      //  //Exercicio 3
+      // <>
+      // <cartao  />
+      // <cartao  />
+      // <cartao  />
+      // </>
 
-/* <Perfil
-nome="Bella"
-idade={17}
-profissao="Desenvolvedora de sistemas"
-/> */}
+//         //Exercicio 3 e 7
+//        <>
+//        <mychildren>
+//       <cartao
+//       nome="isabella" 
+//       idade="17"
+//       profissao="nao sei"/>
 
+//       <cartao
+//       nome="Thata" 
+//       idade="28"
+//       profissao="advogada"/>
+
+//       <cartao
+//       nome="Carol" 
+//       idade="17"
+//       profissao="medica"/>
+// </mychildren>
+      
+     
+//        </>
+
+// // exercicio 5
+// <>
+// <Filme titulo="para todos os garotos que ja amei"
+// ano="2018" 
+// genero="romance"
+// nota="10"/>
+
+// <Filme titulo="velozes e furioses"
+// ano="2001" 
+// genero="ação"
+// nota="1000"/>
+
+// <Filme titulo="a culpa é das estrelas"
+// ano="2014" 
+// genero="romance"
+// nota="7"/>
+// </>
+
+// exercicio 6
+<Produtos />
   );
 }
 

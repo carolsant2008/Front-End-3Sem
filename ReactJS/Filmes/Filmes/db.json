@@ -1,0 +1,28 @@
+{
+  "Genero": [
+    {
+      "nome": "Romance",
+      "id": "1iIJpadEy1k"
+    },
+    {
+      "nome": "Comédia",
+      "id": "l-hBJ0wqWr0"
+    },
+    {
+      "nome": "acao",
+      "id": "uFvplMjifqY"
+    },
+    {
+      "nome": "terror",
+      "id": "-oaVGCsllRY"
+    }
+  ],
+  "Filme": [
+    {
+      "id": "1",
+      "titulo": "Capitão Torolho",
+      "idGenero": "3"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

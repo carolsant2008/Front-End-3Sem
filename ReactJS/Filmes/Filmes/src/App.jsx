@@ -1,6 +1,5 @@
-import Rotas from './routes/routes'
 import './App.css'
-
-const App = () => <Rotas/>
+import Rotas from './routes/Routes'
+const App = () => <Rotas />
 
 export default App
